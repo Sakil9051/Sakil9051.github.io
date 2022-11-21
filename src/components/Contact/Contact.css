@@ -1,0 +1,88 @@
+
+
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+      /* scroll */
+  padding-top: 3rem;
+}
+.c-left{
+    display: flex;
+    color: white;
+    gap: 1rem;
+}
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+.c-button{
+    border-radius: "5rem";
+    width: 5rem;
+    background-color: #c45bed;
+    color: white;
+}
+
+
+  
+  .c-button {
+    line-height: 1.4em !important;
+    background-color: #934cce5e !important;
+    padding: 0.25rem 1.1rem !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+  }
+  
+  .c-button:hover {
+    transform: translateY(-2px) !important;
+    background-color: #a24dd386 !important;
+    border-color: #a24dd386 !important;
+  }
+  .c-button::after {
+    display: none !important;
+  }
+
+
+
+
+textarea{
+    height: 4rem!important;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+}   

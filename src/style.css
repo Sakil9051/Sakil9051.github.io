@@ -157,6 +157,8 @@ button:focus {
 .logo {
   height: 1.4em !important;
   width: 2.5em !important;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 .navbar-nav .nav-link {
@@ -611,9 +613,7 @@ button:focus {
 }
 
 .resume {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  justify-content: center;
+  padding: 100px;
 }
 
 .resume-left {
